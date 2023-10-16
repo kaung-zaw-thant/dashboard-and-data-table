@@ -1,0 +1,82 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.paginator{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #F9FAFB;
+}
+.paginator > button{
+    margin-left: 5px;
+    border: 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px grey;
+    padding: 3px;
+}
+.container{
+    padding: 5px;
+}
+.add{
+    border: 0;
+    border-radius: 5px;
+    background-color: #02006E;
+    margin-top: 5px;
+    padding: 5px 20px;
+    color: white;
+    font-size: 12px;
+}
+#tbl{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+th{
+    padding: 5px 40px;
+    background-color: #F9FAFB;
+}
+td{
+    padding: 10px 5px;
+    height: 30px;
+    border-bottom: 1px solid rgb(241, 236, 236);
+    text-align: center;
+}
+
+.photo{
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 180%;
+    background-color: rgb(244, 243, 241);
+    margin: auto;
+}
+
+img{
+    width: 15px;
+    padding: 5px;
+    border-radius: 2px;
+    
+}
+
+.insert{
+    border: 1px solid blue;
+    margin-right: 5px;
+}
+
+.edit{
+    border: 1px solid rgb(6, 240, 6);
+    margin-right: 5px;
+}
+.delete{
+    border: 1px solid red;
+    margin-right: 5px;
+}
